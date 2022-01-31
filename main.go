@@ -1,9 +1,11 @@
 package main
 
 import (
-	"fmt"
+	"golang-kafka-clients/config"
 )
 
 func main() {
-	fmt.Println("Hello world!")
+	// config.CreateTopicKafka()
+	config.PublishMessageFromKafka()
+	// config.ConsumeMessageFromKafka()
 }
