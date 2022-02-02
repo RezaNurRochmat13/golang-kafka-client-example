@@ -6,6 +6,6 @@ import (
 
 func main() {
 	// config.CreateTopicKafka()
-	config.PublishMessageFromKafka()
-	// config.ConsumeMessageFromKafka()
+	// config.PublishMessageFromKafka()
+	config.ConsumeMessageFromKafka()
 }

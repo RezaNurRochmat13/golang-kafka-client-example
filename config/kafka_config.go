@@ -10,9 +10,9 @@ import (
 )
 
 const (
-	topic          = "guru"
+	topic          = "students"
 	partition      = 0
-	brokerAddress1 = "127.0.0.1:9092"
+	brokerAddress1 = "localhost:9092"
 )
 
 func CreateTopicKafka() {
