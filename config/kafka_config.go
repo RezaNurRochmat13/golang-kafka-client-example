@@ -85,4 +85,5 @@ func ConsumeMessageFromKafka() {
 	if err := conn.Close(); err != nil {
 		log.Fatalf("failed to close connection %v:", err)
 	}
+
 }
