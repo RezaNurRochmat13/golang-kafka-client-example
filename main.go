@@ -8,7 +8,7 @@ import (
 
 func main() {
 	// config.CreateTopicKafka()
-	// config.PublishMessageFromKafka()
+	config.PublishMessageFromKafka()
 	// config.ConsumeMessageFromKafka()
 
 	app := fiber.New()
